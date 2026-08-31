@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="Theme.ImageEditorApp" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <!-- Window attributes -->
+        <item name="android:windowBackground">@color/background_light</item>
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/ModernButton</item>
+    </style>
+
+    <!-- Modern Button Style -->
+    <style name="ModernButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="elevation">2dp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Card Style for Sections -->
+    <style name="SectionCard">
+        <item name="android:background">@color/white</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Section Title Style -->
+    <style name="SectionTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <!-- Text Label Style -->
+    <style name="TextLabel">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <!-- Header Style -->
+    <style name="HeaderText">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Subtitle Style -->
+    <style name="SubtitleText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
