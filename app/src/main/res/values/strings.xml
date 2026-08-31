@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PicFlow - Photo Magic</string>
+    <string name="title_activity_edit">Edit Your Photo</string>
+    <string name="btn_gallery">📸 Pick from Gallery</string>
+    <string name="btn_camera">📷 Take Photo</string>
+    <string name="btn_edit">✨ Edit Now</string>
+    <string name="brightness">☀️ Brightness</string>
+    <string name="contrast">🎨 Contrast</string>
+    <string name="saturation">🌈 Colors</string>
+    <string name="quality">💎 Quality</string>
+    <string name="select_image">Please pick a photo first</string>
+    <string name="error_loading">Oops! Can\'t load photo</string>
+    <string name="image_saved">✅ Photo saved to Pictures!</string>
+</resources>
